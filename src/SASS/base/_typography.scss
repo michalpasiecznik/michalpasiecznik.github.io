@@ -1,0 +1,41 @@
+h1,
+h2,
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+
+  color: $color-primary;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 800;
+}
+
+p {
+  margin-bottom: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: $color-content;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+}

@@ -1,0 +1,81 @@
+.button {
+  background-color: $background-white;
+  color: $color-primary;
+  text-align: center;
+  border-radius: 72px;
+  margin: 10px 10px 10px 0;
+  padding: 28px 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+
+  &:hover {
+    background-color: $color-primary;
+    color: #fff;
+  }
+}
+.w-button {
+  background-color: #3898ec;
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+// Styl dla wariantu .white-button
+.white-button {
+  background-color: white;
+  color: $color-primary;
+  border: 2px solid $background-white;
+  border-radius: 72px;
+  padding: 18px 18px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s,
+    color 0.2s;
+
+  &:hover {
+    border-color: $color-secondary;
+    background-color: $color-secondary;
+    color: #fff;
+  }
+}
+
+// Styl dla wariantu .primary-button
+.primary-button {
+  border: 2px solid $color-primary;
+  background-color: $color-primary;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 72px;
+  margin: 10px 10px 10px 0;
+  padding: 28px 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+
+  &:hover {
+    color: $color-primary;
+    background-color: $background-white;
+  }
+
+  &.primary-large-button {
+    padding: 20px 60px;
+  }
+}
