@@ -103,30 +103,7 @@
 <body>
 <div class="work-in-progress">
   <img src="src/assets/star.jpg" class="nav__logo-img" loading="lazy" alt="Star logo" />
-  
-
-  <!-- Formularz hasła -->
-  <div class="password-form">
-    <form action="#" method="post" id="password-form">
-      <input type="password" name="password" id="password" placeholder="Enter password" class="password-input" required />
-      <input type="submit" value="Submit" class="submit-btn" />
-    </form>
-    <p class="error-message" id="error-message"></p>
-  </div>
-
-  <script>
-    document.getElementById('password-form').addEventListener('submit', function(event) {
-      event.preventDefault();
-      
-      const password = document.getElementById('password').value;
-      
-      if (password === '1410') {
-        window.location.href = 'home.html'; // Przekierowanie do wybranej podstrony
-      } else {
-        document.getElementById('error-message').innerText = 'Incorrect password';
-      }
-    });
-  </script>
+  <h1>Work in Progress</h1>
 </div>
 </body>
 </html>
